@@ -23,6 +23,9 @@ function updateNum() {
 }
 
 
+window.addEventListener("load", updateNum)
+
+
 btnEl.addEventListener("click", () => {
     idx = 0;
     clearTimeout(timeOut);
